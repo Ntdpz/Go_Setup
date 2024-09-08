@@ -6,5 +6,5 @@ import (
 
 func HelloGolang(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/plain")
-	w.Write([]byte("Hello golang"))
+	w.Write([]byte("Hello golang sd"))
 }
